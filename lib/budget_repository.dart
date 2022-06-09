@@ -26,7 +26,7 @@ class BudgetRepository {
         headers: {
           HttpHeaders.authorizationHeader:
               'Bearer ${dotenv.env['NOTION_API_KEY']}',
-          'Notion-Version': '2021-05-13',
+          'Notion-Version': '2022-02-22',
         },
       );
 

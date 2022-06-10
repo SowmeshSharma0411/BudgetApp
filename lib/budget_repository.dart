@@ -14,7 +14,7 @@ class BudgetRepository {
   BudgetRepository({http.Client? client}) : _client = client ?? http.Client();
 
   void dispose() {
-    _client.close();
+    _client.close(); //Always close HTTP clients after using them.
   }
 
   Future<List<Item>> getItems() async {

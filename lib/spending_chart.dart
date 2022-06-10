@@ -41,7 +41,7 @@ class SpendingChart extends StatelessWidget {
                             PieChartSectionData(
                               color: getCategoryColor(category),
                               radius: 100.0,
-                              title: '\$${amountSpent.toStringAsFixed(2)}',
+                              title: '\₹${amountSpent.toStringAsFixed(2)}',
                               value: amountSpent,
                             ),
                           ))

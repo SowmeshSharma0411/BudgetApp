@@ -43,7 +43,10 @@ class _BudgetScreenState extends State<BudgetScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text('Budget Tracker'),
+        backgroundColor: Colors.white,
+        foregroundColor: Colors.black,
       ),
       body: RefreshIndicator(
         onRefresh: () async {
@@ -85,7 +88,7 @@ class _BudgetScreenState extends State<BudgetScreen> {
                         '${item.category} • ${DateFormat.yMd().format(item.date)}',
                       ),
                       trailing: Text(
-                        '-\$${item.price.toStringAsFixed(2)}',
+                        '-\₹${item.price.toStringAsFixed(2)}',
                       ),
                     ),
                   );

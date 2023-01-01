@@ -11,8 +11,12 @@ Notion Database :
 This project helped our team familiarize themselves with notion upto an extent and how it is really useful to organize thoughts, take notes and build ideas apart from using the notion NoSQL database.
 
 Other team Members: 
-[ShubhKanodia](https://github.com/ShubhKanodia)
-Abhiram
+
+
+->[ShubhKanodia](https://github.com/ShubhKanodia)
+
+
+->Abhiram
 
 <p>
 <img src="https://user-images.githubusercontent.com/95576716/210169838-17dd3e89-a7cc-42b9-b52f-100e4be10884.jpg" width="300">
